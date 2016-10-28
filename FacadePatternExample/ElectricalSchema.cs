@@ -1,7 +1,6 @@
-﻿using FacadePatternExample.Contracts;
-
-namespace FacadePatternExample
+﻿namespace FacadePatternExample
 {
+    using Contracts;
     public class ElectricalSchema
     {
         public void DrawSchema(IWriter writer)

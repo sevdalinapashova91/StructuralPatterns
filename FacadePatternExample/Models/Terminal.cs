@@ -1,12 +1,7 @@
-﻿using FacadePatternExample.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FacadePatternExample
+﻿namespace FacadePatternExample
 {
+    using Contracts;
+
     public class Terminal : IElectrical
     {
         public void ConsumeElectricity(IWriter writer)
@@ -16,7 +11,7 @@ namespace FacadePatternExample
 
         public void DoWork(IWriter writer)
         {
-           writer.WriteLine("I connect wires")
+            writer.WriteLine("I connect wires");
         }
     }
 }

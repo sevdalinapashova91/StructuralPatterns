@@ -1,12 +1,6 @@
-﻿using FacadePatternExample.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FacadePatternExample
+﻿namespace FacadePatternExample
 {
+    using Contracts;
     public class Wire : IElectrical
     {
         public void ConsumeElectricity(IWriter writer)

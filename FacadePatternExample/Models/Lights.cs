@@ -1,8 +1,7 @@
-﻿using System;
-using FacadePatternExample.Contracts;
-
-namespace FacadePatternExample
+﻿namespace FacadePatternExample
 {
+    using Contracts;
+
     public class Lights : IElectrical
     {
         public void ConsumeElectricity(IWriter writer)

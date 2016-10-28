@@ -42,7 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Digit.cs" />
+    <Compile Include="DigitFacotry.cs" />
+    <Compile Include="DigitFactory.cs" />
+    <Compile Include="DigitFive.cs" />
+    <Compile Include="DigitFour.cs" />
+    <Compile Include="DigitOne.cs" />
+    <Compile Include="DigitSeven.cs" />
+    <Compile Include="DigitSix.cs" />
+    <Compile Include="DigitThree.cs" />
+    <Compile Include="DigitTwo.cs" />
+    <Compile Include="DigitZero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
